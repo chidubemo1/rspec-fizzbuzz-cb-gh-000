@@ -1,10 +1,12 @@
 def fizzbuzz(x)
+  string = ""
   if(x % 3 == 0)
-    print "Fizz"
+    string += "Fizz"
   end
   if(x % 5 == 0)
-    print "Buzz"
+    string += "Buzz"
   end
+  string
 end
 
 fizzbuzz(15)
