@@ -1,12 +1,12 @@
 def fizzbuzz(x)
-  string = nil
   if(x % 3 == 0)
-    string += "Fizz"
+    return "Fizz"
+  elsif(x % 5 == 0)
+    return "Buzz"
+  elsif(x % 5 == 0 && x % 3 == 0)
+    return "FizzBuzz"
   end
-  if(x % 5 == 0)
-    string += "Buzz"
-  end
-  string
+  nil
 end
 
 fizzbuzz(15)
