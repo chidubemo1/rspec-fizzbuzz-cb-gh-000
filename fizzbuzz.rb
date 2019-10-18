@@ -8,4 +8,3 @@ def fizzbuzz(x)
 end
 
 fizzbuzz(15)
-fizzbuzz(15)
